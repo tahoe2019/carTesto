@@ -22,7 +22,7 @@ const CarCard = ({car}: CarCardProbs) => {
     <a href="#">
 
         
-        <img className="p-8 rounded-t-lg" src={image} alt="product image" />
+        <img className="p-8 rounded-t-lg" src="/a.jpeg"  alt="product image" />
     </a>
     <div className="px-5 pb-5">
         <a href="#">
