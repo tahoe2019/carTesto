@@ -13,8 +13,10 @@ const SearchBar = () => {
     
 
   return (
+
+    <div>helo</div>
     
-    <form className="searchbar" onSubmit={handleSearch}>
+    /* <form className="searchbar" onSubmit={handleSearch}>
 
         <div className="searchbar__item">
 
@@ -31,7 +33,7 @@ const SearchBar = () => {
 
         </div>
 
-    </form>
+    </form> */
   )
 }
 
