@@ -21,11 +21,16 @@ export interface SearchManfacturerProbs{
 export interface CarPorbs{
 
     
-    albumId: number;
-    id: number;
-    title: string;
-    url: string;
-    thumbnailUrl: string;
+        id: Number,
+        title: String,
+        price: String,
+        description:String,
+        category: String,
+        image: String,
+        rating: {
+            rate: Number,
+            count: Number
+        }
     
 
 }

@@ -11,6 +11,7 @@ export default async function Home() {
 
   const allCars = await fetchCars();
     
+  console.log(allCars);
 
   
 
@@ -35,7 +36,7 @@ export default async function Home() {
           </div>
         </div>
 
-       {/*  {!isDataEmpty ? (
+        {!isDataEmpty ? (
           <section>
             <div className='home__cars-wrapper'>
               {allCars?.map((car) => (
@@ -51,13 +52,15 @@ export default async function Home() {
             <h2 className='text-black text-xl font-bold'>Oops, no results</h2>
             
           </div>
-        )} */}
+        )} 
 
-        <Testmonials/>
+        
 
 
 
       </div>
+
+      <Testmonials/>
     </main>
   );
 
